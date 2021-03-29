@@ -1,6 +1,6 @@
 function getPeopleData() {
     $('#data').html(
-        $.get('https://swapi.dev/api/people', function (results) {
+        $.get('http://swapi.dev/api/people', function (results) {
             for (var i = 0; i < 5; i++) {
                 $("#data").append(`
                     <div class="results">
