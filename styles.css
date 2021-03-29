@@ -1,0 +1,39 @@
+.container {
+    background-color: aqua;
+    min-height: 1000px;
+    width: auto;
+    padding: 10px;
+}
+
+.navigation {
+    height: 70px;
+    width: 75%;
+    margin: 20px auto; 
+    border: 2px solid black;
+    display: flex;   
+    align-items: center; 
+    justify-content: center;
+    background-color: orangered
+
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: [space-around]; 
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display:inline-block;
+    font-size: 30px;
+}
+
+.results {
+    width: 90%;
+    margin: 0 auto;
+}
