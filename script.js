@@ -1,6 +1,7 @@
 function getPeopleData() {
     $('#data').html(
         $.get('http://swapi.dev/api/people', function (results) {
+            console.log(results);
             for (var i = 0; i < 5; i++) {
                 $("#data").append(`
                     <div class="results">
@@ -17,7 +18,7 @@ function getPeopleData() {
 }
 function getFilmData() {
     $('#data').html(
-        $.get('https://swapi.dev/api/films', function (results) {
+        $.get('http://swapi.dev/api/films', function (results) {
             for (var i = 0; i < 5; i++) {
                 $("#data").append(`
                     <div class="results">
@@ -34,7 +35,7 @@ function getFilmData() {
 }
 function getPlanetData() {
     $('#data').html(
-        $.get('https://swapi.dev/api/planets', function (results) {
+        $.get('http://swapi.dev/api/planets', function (results) {
             for (var i = 0; i < 3; i++) {
                 $("#data").append(`
                     <div class="results">
